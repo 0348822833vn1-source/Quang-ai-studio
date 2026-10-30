@@ -1,0 +1,16 @@
+[project]
+name = "quang-ai-video-studio"
+version = "1.37.0"
+description = "Quang AI Video Studio Mobile PRO"
+dependencies = [
+    "flet>=0.24.0",
+    "pydantic>=2.9,<3",
+    "google-genai>=1.0,<2",
+    "httpx>=0.28,<1",
+]
+
+[tool.flet]
+org = "com.quangai"
+product = "Quang AI Studio"
+company = "Quang AI"
+copyright = "Copyright (C) 2026 by Quang AI"
